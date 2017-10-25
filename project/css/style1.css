@@ -1,0 +1,77 @@
+body {
+  background-color: #2a3b50
+}
+
+.main-header {
+  text-align: center;
+}
+
+.main-header img {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    padding: 30px
+}
+
+.main-header h1 {
+  color: #fff;
+  font-size: 70px;
+  margin-top: auto;
+}
+
+.register-container {
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+
+.register-container input[type="name"],
+.register-container input[type="username"],
+.register-container input[type="email"],
+.register-container input[type="password"]
+ {
+background-color: transparent;
+border: none;
+width: 100%;
+padding: 20px 10px;
+border-top: 1px solid rgba(255,255,255,.2);
+color: #D3D3D3;
+box-sizing: border-box;
+font-size: 18px;
+}
+
+.register-container input[type="email"] {
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+.register-container input[type="name"]:focus,
+.register-container input[type="username"]:focus,
+.register-container input[type="email"]:focus,
+.register-container input[type="password"]:focus {
+  outline: 0;
+}
+
+.register-container input[type="submit"] {
+padding: 15px;
+width: 100%;
+margin: 50px 0 0;
+background-color: #009595;
+border: none;
+color: #fff;
+font-size: 16px;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #d3d3d3;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #d3d3d3;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #d3d3d3;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #d3d3d3;
+}
